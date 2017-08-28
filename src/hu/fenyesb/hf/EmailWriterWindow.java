@@ -114,13 +114,13 @@ public class EmailWriterWindow extends JFrame implements DropTargetListener {
 		JPanel panel = new JPanel();
 		contentPane.add(panel, BorderLayout.NORTH);
 
-		JLabel lblFrom = new JLabel("Címzett:");
+		JLabel lblFrom = new JLabel("To:");
 
 		txtTo = new JTextField();
 		txtTo.setColumns(5);
 		txtTo.setEditable(true);
 
-		JLabel lblSubject = new JLabel("Tárgy:");
+		JLabel lblSubject = new JLabel("Subject:");
 
 		txtSubject = new JTextField();
 		txtSubject.setColumns(5);
@@ -199,7 +199,7 @@ public class EmailWriterWindow extends JFrame implements DropTargetListener {
 					@SuppressWarnings("unchecked")
 					List<File> files = (List<File>)transferable.getTransferData(DataFlavor.javaFileListFlavor);
 					attachments.addAll(files);
-					setTitle("Levélírás - " + attachments.size() + " csatolmány");
+					setTitle("Attachment count: " + attachments.size());
 				}
 			}
 		} catch (Exception e) {

@@ -45,7 +45,7 @@ public class AccountSelectionWindow extends JDialog {
 		accountManager = new AccountManager("accounts.xml");
 		
 		this.setTitle("Account selection");
-		this.setBounds(100, 100, 650, 300);
+		this.setBounds(100, 100, 450, 300);
 		this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		this.getContentPane().setLayout(new BorderLayout(0, 0));
 		

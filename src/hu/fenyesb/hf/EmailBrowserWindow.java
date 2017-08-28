@@ -78,7 +78,7 @@ public class EmailBrowserWindow extends JFrame {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setContentPane(getContentPane());
 
-		JLabel lblNewLabel = new JLabel("Válasszon egy mappát a levelek betöltéséhez!");
+		JLabel lblNewLabel = new JLabel("Choose a folder to load the emails!");
 		getContentPane().add(lblNewLabel, BorderLayout.NORTH);
 
 		JList<Message> list = new JList<Message>();
