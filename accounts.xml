@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<accountlist>
+    <accountinfo>
+        <address>myemailclienttestacc@gmail.com</address>
+        <password>pLdh4UkjilRRxwPCPAB/0g==</password>
+        <smtp_server>smtp.gmail.com</smtp_server>
+        <smtp_port>465</smtp_port>
+        <imap_server>imap.gmail.com</imap_server>
+        <imap_port>993</imap_port>
+    </accountinfo>
+</accountlist>
